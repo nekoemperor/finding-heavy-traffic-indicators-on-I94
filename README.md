@@ -1,4 +1,4 @@
-# Exploring eBay Car Sales Data
+# Finding Heavy Traffic Indicators on I-94
 
 ## Table of contents
 * [About](#about)
@@ -8,17 +8,13 @@
 
 
 ## About:
-This project is about a dataset of used cars from eBay Kleinanzeigen, a [classifieds](https://en.wikipedia.org/wiki/Classified_advertising) section of the German eBay website. The dataset was originally [scraped](https://en.wikipedia.org/wiki/Web_scraping) and uploaded to Kaggle by user [orgesleka](https://www.kaggle.com/orgesleka).
-The original dataset isn't available on Kaggle anymore, but you can find it [here](https://data.world/data-society/used-cars-data).
+This project is about a dataset of the westbound traffic on the [I-94 Interstate highway](https://en.wikipedia.org/wiki/Interstate_94).
 
 ## Note:
-A few modifications from the original dataset:
-
-- We sampled 50,000 data points from the full dataset, to ensure your code runs quickly in our hosted environment
-- We dirtied the dataset a bit to more closely resemble what you would expect from a scraped dataset (the version uploaded to Kaggle was cleaned to be easier to work with)
+John Hogue made the dataset available, and you can download it from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Metro+Interstate+Traffic+Volume).
 
 ## Goals:
-The aim of this project is to clean the data and analyze the included used car listings.
+The aim of this project is to determine a few indicators of heavy traffic on I-94. These indicators can be weather type, time of the day, time of the week, etc. For instance, we may find out that the traffic is usually heavier in the summer or when it snows.
 
 ## Technologies:
 Project is created with:
